@@ -1,0 +1,104 @@
+* { margin: 0; padding: 0; font-family: 'Gowun Dodum', sans-serif;}
+body {width: 1000px; margin: 0 auto; background-color: #f6f9d4}
+a {text-decoration:none; font-style: italic; }
+img { border: 0; margin: 10px}
+#page-wrapper {margin-top: 40px; padding: 10px 20px; background-color: white}
+#main-header {width: 960px; height: 100px; margin: 0 auto; padding: 40px 50px 10px 50px;}
+#main-header h1 {font-size: 45px; color:#191919;}
+#main-header h2 {font-size: 25px; color:#383838;}
+#title {margin-bottom: 20px;}
+
+input:nth-of-type(1){display: none;}
+input:nth-of-type(1) ~ div:nth-of-type(1){display: none;}
+input:nth-of-type(1):checked ~ div:nth-of-type(1){display: block;}
+
+input:nth-of-type(2){display: none;}
+input:nth-of-type(2) ~ div:nth-of-type(2){display: none;}
+input:nth-of-type(2):checked ~ div:nth-of-type(2){display: block;}
+
+input:nth-of-type(3){display: none;}
+input:nth-of-type(3) ~ div:nth-of-type(3){display: none;}
+input:nth-of-type(3):checked ~ div:nth-of-type(3){display: block;}
+
+input:nth-of-type(4){display: none;}
+input:nth-of-type(4) ~ div:nth-of-type(4){display: none;}
+input:nth-of-type(4):checked ~ div:nth-of-type(4){display: block;}
+
+section.tab-title{overflow: hidden;}
+section.tab-title > label{
+				display: block;
+				float: left;
+				width: 200px;
+				height: 30px;
+				line-height: 30px;
+				text-align: center;
+				border: 1px solid black;
+				background: gray;
+				color: white;
+			}
+
+input:nth-of-type(1):checked~section.tab-title>label:nth-of-type(1){
+				background: white;
+				color: black;
+				border-bottom: none;
+			}
+input:nth-of-type(2):checked~section.tab-title>label:nth-of-type(2){
+				background: white;
+				color: black;
+				border-bottom: none;
+			}
+input:nth-of-type(3):checked~section.tab-title>label:nth-of-type(3){
+				background: white;
+				color: black;
+				border-bottom: none;
+			}
+input:nth-of-type(4):checked~section.tab-title>label:nth-of-type(4){
+				background: white;
+				color: black;
+				border-bottom: none;
+			}
+
+.tab-item {
+	overflow: scroll;
+	width: 743px;
+	height: 700px;
+	border: 1px solid black;
+	padding: 30px;
+	border-top: none;
+}
+
+#passage {
+	margin: 10px 0 10px 30px;
+}
+#content{
+	width: 960px; margin: 0 auto; padding: 10px 50px;
+}
+.answers{
+	margin: 10px 30px;
+}
+#intro{ margin-bottom: 30px; }
+
+article h1{
+	font-size: 25px;
+	display: block;
+	margin: 0 0 10px 0;
+}
+.qna > h2{ font-size:22px; }
+.tab-item ul h2{
+	font-size: 18px;
+	display: block;
+	margin: 10px 0;
+}
+.qna{ margin-top: 10px; }
+
+li ul{
+	display: block; padding: 0 0 0 20px;
+}
+
+footer p{
+	text-align: center;
+}
+
+footer{
+	margin-bottom: 30px;
+}
